@@ -1,0 +1,13 @@
+name: log.mprotect_exec
+params:
+    # flag to set so that the rule is used as a filter
+    filter: true
+match-on:
+    events:
+        # kunai mprotect_exec event id
+        kunai: [ 40 ]
+matches:
+    # exe matches regex
+    $browser: .data.exe.file ~= '/usr/lib/(firefox/firefox|chromium/chromium)'
+# if exe is neither firefox nor chromium
+condition: not $browser

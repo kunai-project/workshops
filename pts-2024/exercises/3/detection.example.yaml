@@ -1,0 +1,27 @@
+# name of the rule
+name: mimic.kthread
+# metadata information
+meta:
+    # tags of the rule
+    tags: [ 'os:linux' ]
+    # MITRE ATT&CK ids
+    attack: [ T1036 ]
+    # authors of the rule
+    authors: [ qjerome ]
+    # comments about the rule
+    comments:
+        - tries to catch binaries masquerading kernel threads
+# acts as a pre-filter to speed up engine
+match-on:
+    events:
+        # we match on kunai execve and execve_script event ids
+        kunai: [1, 2]
+matches:
+    # 0x200000 is the flag for KTHREAD
+    $task_is_kthread: .info.task.flags &= '0x200000'
+    # common kthread names 
+    $kthread_names: .info.task.name ~= '^(kworker)'
+# if task is NOT a KTHREAD but we have a name that looks like one
+condition: not $task_is_kthread and $kthread_names
+# severity is bounded to 10 so it is the maximum score
+severity: 10

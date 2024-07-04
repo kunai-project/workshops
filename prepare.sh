@@ -1,14 +1,24 @@
 #!/bin/bash
 
-set -e
+set -eux
 
 CURDIR=$(dirname $(realpath $0))
 
 cd $CURDIR
 
 # download kunai v0.2.4
-wget https://github.com/kunai-project/kunai/releases/download/v0.2.4/kunai-aarch64
-wget https://github.com/kunai-project/kunai/releases/download/v0.2.4/kunai-amd64
+ARCH=$(uname -m)
+if [[ $ARCH == "x86_64" ]]
+then
+    /usr/bin/wget -O kunai https://github.com/kunai-project/kunai/releases/download/v0.2.4/kunai-amd64
+    chmod +x kunai
+fi
+
+if [[ $ARCH == "aarch64" ]]
+then
+    /usr/bin/wget -O kunai https://github.com/kunai-project/kunai/releases/download/v0.2.4/kunai-aarch64
+    chmod +x kunai
+fi
 
 if [[ ! -d "tools" ]]
 then

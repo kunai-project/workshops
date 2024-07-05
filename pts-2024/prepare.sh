@@ -30,6 +30,16 @@ then
     git clone https://helga.circl.lu/NGSOTI/malware-dataset
 fi
 
+while read dir
+do
+    hash=$(basename $dir)
+    if [[ ! -f "$dir/$hash.gzip" ]]
+    then
+        # at least gzipping the malacious content
+        gzip $dir/$hash
+    fi
+done < <(find malware-dataset/linux -mindepth 1 -maxdepth 1 -type d)
+
 # installing requirements
 cd tools
 python -m venv .env

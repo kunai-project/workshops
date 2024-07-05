@@ -35,7 +35,7 @@ do
     hash=$(basename $dir)
     if [[ ! -f "$dir/$hash.gzip" ]]
     then
-        # at least gzipping the malacious content
+        # at least gzipping the malicious content
         gzip $dir/$hash
     fi
 done < <(find malware-dataset/linux -mindepth 1 -maxdepth 1 -type d)

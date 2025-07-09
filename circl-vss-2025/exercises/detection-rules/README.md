@@ -40,9 +40,8 @@
     severity: 7
     ```
 3. Run kunai configured with detection rule(s)
-    :::info
-    Rule files must have `.kun` extension so that kunai can load it from a directory
-    :::
+    > :information_source: Rule files must have `.kun` extension so that kunai can load it from a directory
+    
     ```bash
     sudo kunai run -r /tmp/rules/detections | jq '.'
     ```

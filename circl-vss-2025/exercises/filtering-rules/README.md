@@ -31,9 +31,8 @@
     ```
 4. Observe kunai logs
 
-:::warning
-**Remember** that kunai rules have **OR** relationship between them. So pay attention to excluded events, always make sure there is no other rule including it.
-:::
+> :warning: **Remember** that kunai rules have **OR** relationship between them. So pay attention to excluded events, always make sure there is no other rule including it.
+
 
 ### Bonus
 - Use `kunai-stats` (seen above) to confirm your log filtering works

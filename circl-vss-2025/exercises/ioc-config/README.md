@@ -13,9 +13,8 @@
     {"uuid": "ad3b743b-12f3-4433-8a90-8abccfb47080", "source": "circl-vss", "value": "circl.lu", "severity": 10}
     ```
 2. What do you observe? No logs anymore ...
-    :::info
-    This is normal you don't see **logs flowing** anymore. When Kunai is configured with **IoCs** or **filtering/detection rules** (c.f. next exercise) **only matching events** are displayed
-    :::
+    > :information_source: This is normal you don't see **logs flowing** anymore. When Kunai is configured with **IoCs** or **filtering/detection rules** (c.f. next exercise) **only matching events** are displayed
+    
 3. Run kunai configured with IoC list
     ```bash
     sudo kunai run -i $IOC_FILE

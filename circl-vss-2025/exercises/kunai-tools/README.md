@@ -8,7 +8,7 @@
 ### Searching Process Activity
 
 > ℹ️ The process of searching the activity related to a given process is very important as it
-> allow to isolate a process activity. It is a foundamental step to master to build **detection
+> allow to isolate a process activity. It is a fundamental step to master to build **detection
 > rules**.
 
 1. Run kunai

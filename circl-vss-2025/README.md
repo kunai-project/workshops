@@ -30,7 +30,7 @@ We recommend setting up a **Virtual Machine (VM)** for this workshop to isolate 
 - **CPU**: 2 cores
 - **RAM**: 4 GB
 - **Storage**: 50 GB
-- 
+
 ### Software Installation
 Run the following command to install all necessary tools and utilities:
 ```bash

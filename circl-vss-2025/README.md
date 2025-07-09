@@ -10,7 +10,7 @@
 | 3:50 PM | 30 min | [Configuration with IoCs](./exercises/ioc-config/README.md) | Step-by-step guide on how to configure Kunai with a MISP server. | ✓ |
 | 4:20 PM | 30 min | [Advanced Configuration: Detection Rules](./exercises/detection-rules/README.md) | Hands-on session on setting up and managing detection rules. | ✓ |
 | 4:50 PM | 30 min | [Advanced Configuration: Log Filtering](./exercises/filtering-rules/README.md) | Hands-on session on advanced configuration focusing on log filtering. | ✓ |
-| 5:20 PM | 30 min | [Configuring Kunai with Yara Rules](./exercises/detection-rules/README.md) | Practical exercises on configuring Kunai with Yara rules for malware detection. | ✓ |
+| 5:20 PM | 30 min | [Configuring Kunai with Yara Rules](./exercises/yara-config/README.md) | Practical exercises on configuring Kunai with Yara rules for malware detection. | ✓ |
 | 5:50 PM | 10 min | Q&A Session and Feedback | Open floor for participants to ask questions, provide feedback, and discuss their experiences. | |
 
 > :information_source: During hands-on times, participants are **highly encouraged** to do exercises at the same time as the presenter so that they can notice any pain points and ask questions.

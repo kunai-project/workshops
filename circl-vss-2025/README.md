@@ -23,13 +23,14 @@
 **Virtual Machine or Physical Machine**: Ensure you have access to a virtual machine or a physical machine running:
 - a **Linux kernel** above **v5.4**
 - **x86_64 or aarch64 architectures**
-**Using a virtual machine is recommended for ease of setup and isolation.**
+> :information_source: **Using a virtual machine is recommended for ease of setup and isolation.**
 ### VM Setup
 We recommend setting up a **Virtual Machine (VM)** for this workshop to isolate the environment and avoid conflicts with your existing setup. You can use software like VirtualBox or VMware to create a VM with the following (indicative) specifications:
 - **OS**: Ubuntu 24.04 LTS
 - **CPU**: 2 cores
 - **RAM**: 4 GB
 - **Storage**: 50 GB
+- 
 ### Software Installation
 Run the following command to install all necessary tools and utilities:
 ```bash
@@ -42,6 +43,7 @@ Verify kunai tools get installed, in a **new terminal** run
 ```bash
 which kunai-search
 ```
+
 ### Getting Kunai Ready
 1. Download **Kunai** from GitHub on the [release page](https://github.com/kunai-project/kunai/releases).
 2. Download the signature file (i.e., the one ending with `.asc`) corresponding to the binary you previously downloaded.

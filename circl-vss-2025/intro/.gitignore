@@ -1,0 +1,14 @@
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.bbl
+*.blg
+*.vrb
+_minted-presentation
+*.pygstyle
+*.fls
+*.fdb_latexmk
+_minted

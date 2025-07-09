@@ -12,13 +12,13 @@
 | 4:50 PM | 30 min | [Advanced Configuration: Log Filtering](./exercises/filtering-rules/README.md) | Hands-on session on advanced configuration focusing on log filtering. | ✓ |
 | 5:20 PM | 30 min | [Configuring Kunai with Yara Rules](./exercises/detection-rules/README.md) | Practical exercises on configuring Kunai with Yara rules for malware detection. | ✓ |
 | 5:50 PM | 10 min | Q&A Session and Feedback | Open floor for participants to ask questions, provide feedback, and discuss their experiences. | |
-:::info
-During hands-on times, participants are **highly encouraged** to do exercises at the same time as the presenter so that they can notice any pain points and ask questions.
-:::
+
+> :information_source: During hands-on times, participants are **highly encouraged** to do exercises at the same time as the presenter so that they can notice any pain points and ask questions.
+
 ## Pre-requisites
-:::warning
-Anything in this section will not be covered during the workshop. We expect the students to have **ready to use environments**.
-:::
+
+> :warning: Anything in this section will not be covered during the workshop. We expect the students to have **ready to use environments**.
+
 ### System Requirements
 **Virtual Machine or Physical Machine**: Ensure you have access to a virtual machine or a physical machine running:
 - a **Linux kernel** above **v5.4**

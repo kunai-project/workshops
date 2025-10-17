@@ -1,5 +1,7 @@
 # CIRCL Virtual Summer School: Kunai Workshop
+
 ## Roadmap
+
 | Time | Duration | Topic | Description | Hands-On |
 | - | - | - | - | - |
 | 2:00 PM | 15 min | Introduction | Welcome and introduction to the workshop. Overview of the agenda and objectives. | |
@@ -13,17 +15,21 @@
 | 5:20 PM | 30 min | [Configuring Kunai with Yara Rules](./exercises/yara-config/README.md) | Practical exercises on configuring Kunai with Yara rules for malware detection. | ✓ |
 | 5:50 PM | 10 min | Q&A Session and Feedback | Open floor for participants to ask questions, provide feedback, and discuss their experiences. | |
 
-> :information_source: During hands-on times, participants are **highly encouraged** to do exercises at the same time as the presenter so that they can notice any pain points and ask questions.
+#### :information_source: During hands-on times, participants are **highly encouraged** to do exercises at the same time as the presenter so that they can notice any pain points and ask questions.
 
 ## Pre-requisites
 
-> :warning: Anything in this section will not be covered during the workshop. We expect the students to have **ready to use environments**.
+### :warning: **IMPORTANT**
+   * Anything in this section will not be covered during the workshop. We expect the students to have **ready to use environments**.
+   * There is a **ready-made x86_64** VM available for [download](https://cra.circl.lu/circl-vss-2025/circl-vss-vm.ova)
+   * All the people **running an ARM based laptop** will have to **setup a VM before the workshop**.
 
 ### System Requirements
 **Virtual Machine or Physical Machine**: Ensure you have access to a virtual machine or a physical machine running:
 - a **Linux kernel** above **v5.4**
 - **x86_64 or aarch64 architectures**
 > :information_source: **Using a virtual machine is recommended for ease of setup and isolation.**
+
 ### VM Setup
 We recommend setting up a **Virtual Machine (VM)** for this workshop to isolate the environment and avoid conflicts with your existing setup. You can use software like VirtualBox or VMware to create a VM with the following (indicative) specifications:
 - **OS**: Ubuntu 24.04 LTS

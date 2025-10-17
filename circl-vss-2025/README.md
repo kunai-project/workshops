@@ -1,5 +1,9 @@
 # CIRCL Virtual Summer School: Kunai Workshop
 
+## Stream on Youtube
+
+This session has been recorded and is available on [Youtube](https://youtu.be/99Qc_-KiCLw?si=ETa7xAaJTk6L_Sle)
+
 ## Roadmap
 
 | Time | Duration | Topic | Description | Hands-On |
